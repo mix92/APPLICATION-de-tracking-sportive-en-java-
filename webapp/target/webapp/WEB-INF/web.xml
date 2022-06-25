@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tracking.Servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<display-name>HomeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tracking.Servlet.HomeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SignUpServlet</servlet-name>
+  	<display-name>SignUpServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tracking.Servlet.SignUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tracking.Servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddActivityServlet</servlet-name>
+  	<display-name>AddActivityServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tracking.Servlet.AddActivityServlet</servlet-class>
+  </servlet>
+  <servlet>
+	<servlet-name>LancerActiviteServlet</servlet-name>
+	<display-name>LancerActiviteServlet</display-name>
+	<description></description>
+	<servlet-class>com.tracking.Servlet.LancerActiviteServlet</servlet-class>
+  </servlet>
+  <servlet>
+	<servlet-name>DetailActiviteServlet</servlet-name>
+	<display-name>DetailActiviteServlet</display-name>
+	<description></description>
+	<servlet-class>com.tracking.Servlet.DetailActiviteServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DeleteActiviteServlet</servlet-name>
+	<display-name>DeleteActiviteServlet</display-name>
+	<description></description>
+	<servlet-class>com.tracking.Servlet.DeleteActiviteServlet</servlet-class>
+</servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HomeServlet</servlet-name>
+  	<url-pattern>/HomeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignUpServlet</servlet-name>
+  	<url-pattern>/SignUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddActivityServlet</servlet-name>
+  	<url-pattern>/AddActivityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+	<servlet-name>LancerActiviteServlet</servlet-name>
+	<url-pattern>/LancerActiviteServlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>DetailActiviteServlet</servlet-name>
+	<url-pattern>/DetailActiviteServlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>DeleteActiviteServlet</servlet-name>
+	<url-pattern>/DeleteActiviteServlet</url-pattern>
+</servlet-mapping>
+</web-app>
